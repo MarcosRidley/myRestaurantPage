@@ -1,0 +1,24 @@
+{
+  "name": "myrestaurantpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosRidley/myRestaurantPage.git"
+  },
+  "author": "Marcos Ridley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosRidley/myRestaurantPage/issues"
+  },
+  "homepage": "https://github.com/MarcosRidley/myRestaurantPage#readme",
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

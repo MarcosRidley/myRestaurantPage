@@ -1,0 +1,45 @@
+body {
+    background-image: url("flag.svg");
+    background-repeat: repeat;
+    font-family: 'Libre Baskerville', helvetica, sans-serif
+
+}
+header {
+    background-color: #ffde73;
+    padding-top: 0.5em;
+    /* padding: 5px 10rem 0px; */
+    display: flex;
+    align-items: center;
+}
+header>button {
+    flex:1;
+    background-color: #ffde73;
+    border: 3px solid black;
+    border-bottom: none;
+    border-radius: 3px;
+    padding: 2em;
+    margin: 3px;
+}
+header>button:active {
+    background-color: #ccac51;
+}
+
+.centerDiv {
+    background: #ffde73;
+    margin: 2em 3em;
+    display: flex;
+    flex-direction: column;
+border-radius: 15px;
+}
+.centerDiv>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.centerDiv>div>p {
+    text-align: center;
+    padding: 15px;
+}
+.workingHours {
+    font-size: 0.8em;
+}

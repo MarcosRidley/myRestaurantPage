@@ -3,7 +3,7 @@ import { generateHeader } from "./generateHeader"
 import { generateHome } from "./generateHome()"
 
 generateHeader()
-
+generateHome()
 
 // generateHome()
 // generateMenu()

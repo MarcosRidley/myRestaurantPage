@@ -55,7 +55,3 @@ function createAddress() {
     addressString.textContent = "Avenida Fleming, 1481"
     addressDiv.appendChild(addressString)
 }
-
-function hideMenu(){
-    // document.getElementById("menuDiv").classList.add("hidden")
-}

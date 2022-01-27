@@ -24,7 +24,7 @@ export function generateContact() {
         wppAnchor.classList.add("centerDiv", "transformScale");
         wppAnchor.href = "https://api.whatsapp.com/send?phone=5531992298584&text=Boa noite Mario! Gostaria de fazer um pedido!";
         const whatsappImage = document.createElement("img");
-        whatsappImage.src="../src/wpp-logo.svg";
+        whatsappImage.src="wpp-logo.svg";
         wppAnchor.appendChild(whatsappImage)
         contactIntroductionDiv.appendChild(wppAnchor);
 
@@ -32,7 +32,7 @@ export function generateContact() {
         instagramAnchor.classList.add("centerDiv", "transformScale")
         instagramAnchor.href = "https://www.instagram.com/mariosfineburguer/";
         const instagramImage = document.createElement("img");
-        instagramImage.src="../src/ig-logo.svg";
+        instagramImage.src="ig-logo.svg";
         instagramAnchor.appendChild(instagramImage)
         contactIntroductionDiv.appendChild(instagramAnchor);
 
@@ -42,7 +42,7 @@ export function generateContact() {
         fbAnchor.classList.add("centerDiv", "transformScale");
         fbAnchor.href = "https://www.facebook.com/mariosfineburgers/";
         const fbImage = document.createElement("img");
-        fbImage.src="../src/fb-logo.svg";
+        fbImage.src="fb-logo.svg";
         fbAnchor.appendChild(fbImage);
         contactIntroductionDiv.appendChild(fbAnchor);
 

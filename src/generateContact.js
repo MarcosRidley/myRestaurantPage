@@ -2,6 +2,9 @@ import { content } from "./index";
 import { writeRestaurantDescription } from "./writeRestaurantDescription";
 import { homeDiv } from "./generateHome";
 import { menuDiv } from "./GenerateMenu";
+import wppIcon from "../src/wpp-logo.svg"
+import igIcon from "../src/ig-logo.svg"
+import fbIcon from "../src/fb-logo.svg"
 
 const contactDiv = document.createElement("div");
 let contactExists = false;
@@ -24,7 +27,7 @@ export function generateContact() {
         wppAnchor.classList.add("centerDiv", "transformScale");
         wppAnchor.href = "https://api.whatsapp.com/send?phone=5531992298584&text=Boa noite Mario! Gostaria de fazer um pedido!";
         const whatsappImage = document.createElement("img");
-        whatsappImage.src="wpp-logo.svg";
+        whatsappImage.src=wppIcon;
         wppAnchor.appendChild(whatsappImage)
         contactIntroductionDiv.appendChild(wppAnchor);
 
@@ -32,7 +35,7 @@ export function generateContact() {
         instagramAnchor.classList.add("centerDiv", "transformScale")
         instagramAnchor.href = "https://www.instagram.com/mariosfineburguer/";
         const instagramImage = document.createElement("img");
-        instagramImage.src="ig-logo.svg";
+        instagramImage.src=igIcon;
         instagramAnchor.appendChild(instagramImage)
         contactIntroductionDiv.appendChild(instagramAnchor);
 
@@ -42,7 +45,7 @@ export function generateContact() {
         fbAnchor.classList.add("centerDiv", "transformScale");
         fbAnchor.href = "https://www.facebook.com/mariosfineburgers/";
         const fbImage = document.createElement("img");
-        fbImage.src="fb-logo.svg";
+        fbImage.src=fbIcon
         fbAnchor.appendChild(fbImage);
         contactIntroductionDiv.appendChild(fbAnchor);
 

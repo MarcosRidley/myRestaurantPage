@@ -2,6 +2,7 @@ import { content } from "./index";
 import { writeRestaurantDescription } from "./writeRestaurantDescription";
 import { homeDiv } from "./generateHome";
 import { contactDiv } from "./generateContact";
+import menu from '../src/menu.png';
 
 const menuDiv = document.createElement("div");
 let menuExists = false;
@@ -18,7 +19,7 @@ export function generateMenu() {
         menuIntroductionDiv.classList.add("centerDiv");
         writeRestaurantDescription(menuIntroductionDiv, "Cardápio");
         const menuImage = document.createElement("img");
-        menuImage.src="./src/menu.png";
+        menuImage.src= menu;
         menuIntroductionDiv.setAttribute("id", "normalAlign")
         menuIntroductionDiv.appendChild(menuImage);
         menuDiv.appendChild(menuIntroductionDiv);

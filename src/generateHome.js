@@ -5,6 +5,7 @@ import { menuDiv } from "./GenerateMenu";
 import { contactDiv } from "./generateContact";
 
 
+
 const homeDiv = document.createElement("div");
 export {homeDiv}
 let homeExists = false;
@@ -13,7 +14,7 @@ let homeExists = false;
 
 export function generateHome() {
 
-        menuDiv.classList.add("hidden");
+    menuDiv.classList.add("hidden");
     contactDiv.classList.add("hidden")
 
 

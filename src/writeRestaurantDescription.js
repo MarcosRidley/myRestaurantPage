@@ -1,9 +1,11 @@
+import logo from "../src/logo.png"
+
 export function writeRestaurantDescription(whichDiv, whichText, isHours = false){
     const div = document.createElement("div");
     const p = document.createElement("p");
     if(whichText == "Mario's Fine Burguer") {
         const restaurantLogo = document.createElement("img")
-        restaurantLogo.src = "../src/logo.png"
+        restaurantLogo.src = logo
         div.appendChild(restaurantLogo);
     }
     p.textContent = whichText

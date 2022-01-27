@@ -15,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/MarcosRidley/myRestaurantPage/issues"
   },
-  "homepage": "https://github.com/MarcosRidley/myRestaurantPage#readme",
   "devDependencies": {
     "css-loader": "^6.5.1",
     "style-loader": "^3.3.1",

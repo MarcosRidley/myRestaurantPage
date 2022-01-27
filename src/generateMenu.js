@@ -18,7 +18,7 @@ export function generateMenu() {
         menuIntroductionDiv.classList.add("centerDiv");
         writeRestaurantDescription(menuIntroductionDiv, "Cardápio");
         const menuImage = document.createElement("img");
-        menuImage.src="menu.png";
+        menuImage.src="./src/menu.png";
         menuIntroductionDiv.setAttribute("id", "normalAlign")
         menuIntroductionDiv.appendChild(menuImage);
         menuDiv.appendChild(menuIntroductionDiv);
